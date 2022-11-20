@@ -94,4 +94,15 @@ figcaption {
     margin-left: left;
 }
 
+#poem div {
+    max-width: 100%;
+    columns: 20%;
+
+}
+
+#formElements {
+    display: grid;
+}
+
+
 
