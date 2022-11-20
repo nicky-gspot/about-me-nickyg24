@@ -63,4 +63,35 @@ max-width: 200%;
     text-align: center;
 }
 
+#poem {
+    max-width: 50rem;
+    margin: 0 auto;
+    color: black
+}
+
+#poem div p: first-letter {
+    color: white;
+    float:center;
+    padding: 30em;
+    line-height:.70;
+    border: 5rem;
+
+
+}
+
+
+@media screen and (min width: 60em)
+figure {
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center
+    align-items: center;
+    font-size: 3rem;
+    margin-left: left;
+}
+
 
